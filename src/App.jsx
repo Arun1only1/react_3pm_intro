@@ -1,6 +1,6 @@
 import "./App.css";
-import Card from "./Card";
-import Counter from "./Counter";
+import CourseCard from "./CourseCard";
+import MuiCard from "./MuiCard";
 
 // react-component
 // name should be started with capital letter
@@ -9,7 +9,11 @@ import Counter from "./Counter";
 function App() {
   return (
     <div>
-      <Card />
+      {/* <Card /> */}
+      {/* <MuiCard />
+       */}
+
+      <CourseCard />
     </div>
   );
 }
