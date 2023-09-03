@@ -1,6 +1,8 @@
 import "./App.css";
 import CourseCard from "./CourseCard";
 import MuiCard from "./MuiCard";
+import Counter from "./hooks/Counter";
+import HooksIntro from "./hooks/HooksIntro";
 
 // react-component
 // name should be started with capital letter
@@ -13,7 +15,9 @@ function App() {
       {/* <MuiCard />
        */}
 
-      <CourseCard />
+      {/* <CourseCard /> */}
+      {/* <HooksIntro /> */}
+      <Counter />
     </div>
   );
 }
