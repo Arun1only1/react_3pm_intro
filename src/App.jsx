@@ -1,6 +1,8 @@
+import SignupForm from "./AddUserForm";
 import "./App.css";
 import CourseCard from "./CourseCard";
 import MuiCard from "./MuiCard";
+import TodoForm from "./TodoForm";
 import Counter from "./hooks/Counter";
 import HooksIntro from "./hooks/HooksIntro";
 
@@ -17,7 +19,9 @@ function App() {
 
       {/* <CourseCard /> */}
       {/* <HooksIntro /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <SignupForm /> */}
+      <TodoForm />
     </div>
   );
 }
